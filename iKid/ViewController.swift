@@ -15,7 +15,7 @@ class GoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        GoodLabel.text = "What did the gorilla call the donkey"
+        GoodLabel.text = "Why do we tell actors to \"break a leg?\""
     }
 
 
@@ -56,7 +56,7 @@ class PunViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        PunLabel.text = "What did the gorilla call the donkey"
+        PunLabel.text = "I was wondering why the ball was getting bigger."
     }
 
 
@@ -98,7 +98,7 @@ class DadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DadLabel.text = "What did the gorilla call the donkey"
+        DadLabel.text = "What do you call a cow in an earthquake?"
     }
 
 
