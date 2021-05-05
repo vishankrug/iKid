@@ -51,7 +51,7 @@
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <state key="normal" title="Click!"/>
                                 <connections>
-                                    <action selector="GoodButton:" destination="I8D-MF-7Qm" eventType="touchUpInside" id="Mba-mx-JBV"/>
+                                    <action selector="GoodButton:" destination="I8D-MF-7Qm" eventType="touchUpInside" id="Oly-zK-wy1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,7 +62,7 @@
                             <constraint firstItem="2Hq-aP-SlZ" firstAttribute="centerY" secondItem="T0m-VZ-sUu" secondAttribute="centerY" id="afF-LT-3An"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" id="oFe-14-pJ6"/>
+                    <tabBarItem key="tabBarItem" title="Good" image="paperplane" catalog="system" id="oFe-14-pJ6"/>
                     <connections>
                         <outlet property="GoodButton" destination="bK0-Nm-ZSm" id="DlZ-zL-7KV"/>
                         <outlet property="GoodLabel" destination="2Hq-aP-SlZ" id="fFx-hm-b7t"/>
@@ -96,7 +96,7 @@
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <state key="normal" title="Click!"/>
                                 <connections>
-                                    <action selector="DadButton:" destination="0D2-5u-XTs" eventType="touchUpInside" id="fcg-U4-NSQ"/>
+                                    <action selector="DadButton:" destination="0D2-5u-XTs" eventType="touchUpInside" id="dZz-HW-26P"/>
                                     <action selector="GoodButton:" destination="I8D-MF-7Qm" eventType="touchUpInside" id="LD1-cJ-1sd"/>
                                 </connections>
                             </button>
@@ -108,7 +108,7 @@
                             <constraint firstItem="xve-lF-7zj" firstAttribute="centerY" secondItem="y3J-VQ-NMv" secondAttribute="centerY" id="dDt-xw-6QU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" id="TW6-pb-Rxj"/>
+                    <tabBarItem key="tabBarItem" title="Dad" image="paperplane" catalog="system" id="TW6-pb-Rxj"/>
                     <connections>
                         <outlet property="DadLabel" destination="xve-lF-7zj" id="ujw-Cw-SXc"/>
                     </connections>
@@ -152,7 +152,7 @@
                             <constraint firstItem="Fot-fN-iPa" firstAttribute="centerY" secondItem="oyi-go-Esu" secondAttribute="centerY" id="siw-pw-BVN"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" id="SRs-Is-I0D"/>
+                    <tabBarItem key="tabBarItem" title="Pun" image="paperplane" catalog="system" id="SRs-Is-I0D"/>
                     <connections>
                         <outlet property="PunButton" destination="dK3-6W-jFD" id="gHW-2R-RPr"/>
                         <outlet property="PunLabel" destination="Fot-fN-iPa" id="ZZZ-aw-iHg"/>
@@ -162,8 +162,102 @@
             </objects>
             <point key="canvasLocation" x="874" y="68"/>
         </scene>
+        <!--Pun Punch View Controller-->
+        <scene sceneID="fxw-sd-GlQ">
+            <objects>
+                <viewController storyboardIdentifier="PunPunchID" id="A6g-mH-goq" customClass="PunPunchViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ndq-CP-8m6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donkey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEi-jv-6j3" userLabel="PunPunchLabel">
+                                <rect key="frame" x="57" y="348" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="H0r-aL-BRl"/>
+                                    <constraint firstAttribute="width" constant="300" id="HLd-9V-J38"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HFI-H9-h4K"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fEi-jv-6j3" firstAttribute="centerX" secondItem="ndq-CP-8m6" secondAttribute="centerX" id="2KV-lv-ofk"/>
+                            <constraint firstItem="fEi-jv-6j3" firstAttribute="centerY" secondItem="ndq-CP-8m6" secondAttribute="centerY" id="LGr-4y-iLS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xz1-RG-1IY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1745" y="75"/>
+        </scene>
+        <!--Good Punch View Controller-->
+        <scene sceneID="F7g-WT-0fw">
+            <objects>
+                <viewController storyboardIdentifier="GoodPunchID" id="lNG-K1-VkS" customClass="GoodPunchViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5cO-3T-ddP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donkey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILb-X7-aDF" userLabel="GoodPunchLabel">
+                                <rect key="frame" x="57" y="348" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Dry-OM-udq"/>
+                                    <constraint firstAttribute="width" constant="300" id="oKF-3F-pkv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KjI-hi-fz6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ILb-X7-aDF" firstAttribute="centerX" secondItem="5cO-3T-ddP" secondAttribute="centerX" id="7E7-NC-u5M"/>
+                            <constraint firstItem="ILb-X7-aDF" firstAttribute="centerY" secondItem="5cO-3T-ddP" secondAttribute="centerY" id="eg4-yi-7lZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcJ-yF-6pw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783" y="-640"/>
+        </scene>
+        <!--Dad Punch View Controller-->
+        <scene sceneID="W21-oR-MMl">
+            <objects>
+                <viewController storyboardIdentifier="DadPunchID" id="cX8-9X-qt2" customClass="DadPunchViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L5H-Xo-HKN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donkey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh2-PK-5xD" userLabel="DadPunchLabel">
+                                <rect key="frame" x="57" y="348" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Ate-6M-QZk"/>
+                                    <constraint firstAttribute="width" constant="300" id="oIL-t8-gpL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U5f-9T-I9T"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bh2-PK-5xD" firstAttribute="centerY" secondItem="L5H-Xo-HKN" secondAttribute="centerY" id="QZT-Vb-tep"/>
+                            <constraint firstItem="bh2-PK-5xD" firstAttribute="centerX" secondItem="L5H-Xo-HKN" secondAttribute="centerX" id="bXc-L0-pl0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIM-Bq-2jH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1745" y="797"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="paperplane" catalog="system" width="128" height="118"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

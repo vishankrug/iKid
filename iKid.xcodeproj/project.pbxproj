@@ -15,6 +15,9 @@
 		143817D226424D300045E956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143817D026424D300045E956 /* LaunchScreen.storyboard */; };
 		143817DD26424D300045E956 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143817DC26424D300045E956 /* iKidTests.swift */; };
 		143817E826424D300045E956 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143817E726424D300045E956 /* iKidUITests.swift */; };
+		143817F62642839C0045E956 /* PunPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143817F52642839C0045E956 /* PunPunchViewController.swift */; };
+		143817F826428E7C0045E956 /* GoodPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143817F726428E7C0045E956 /* GoodPunchViewController.swift */; };
+		143817FA264290100045E956 /* DadPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143817F9264290100045E956 /* DadPunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		143817E326424D300045E956 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143817E726424D300045E956 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		143817E926424D300045E956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143817F52642839C0045E956 /* PunPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunPunchViewController.swift; sourceTree = "<group>"; };
+		143817F726428E7C0045E956 /* GoodPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodPunchViewController.swift; sourceTree = "<group>"; };
+		143817F9264290100045E956 /* DadPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadPunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				143817C526424D2F0045E956 /* AppDelegate.swift */,
 				143817C726424D2F0045E956 /* SceneDelegate.swift */,
 				143817C926424D2F0045E956 /* ViewController.swift */,
+				143817F9264290100045E956 /* DadPunchViewController.swift */,
 				143817CB26424D2F0045E956 /* Main.storyboard */,
+				143817F726428E7C0045E956 /* GoodPunchViewController.swift */,
+				143817F52642839C0045E956 /* PunPunchViewController.swift */,
 				143817CE26424D300045E956 /* Assets.xcassets */,
 				143817D026424D300045E956 /* LaunchScreen.storyboard */,
 				143817D326424D300045E956 /* Info.plist */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				143817CA26424D2F0045E956 /* ViewController.swift in Sources */,
+				143817FA264290100045E956 /* DadPunchViewController.swift in Sources */,
 				143817C626424D2F0045E956 /* AppDelegate.swift in Sources */,
+				143817F826428E7C0045E956 /* GoodPunchViewController.swift in Sources */,
 				143817C826424D2F0045E956 /* SceneDelegate.swift in Sources */,
+				143817F62642839C0045E956 /* PunPunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
