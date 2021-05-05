@@ -45,9 +45,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK0-Nm-ZSm" userLabel="GoodButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK0-Nm-ZSm" userLabel="GoodButton">
                                 <rect key="frame" x="307" y="595" width="47" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="JZf-nh-2cO"/>
+                                    <constraint firstAttribute="height" constant="35" id="mlg-To-tpD"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <state key="normal" title="Click!"/>
                                 <connections>
@@ -59,7 +62,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2Hq-aP-SlZ" firstAttribute="centerX" secondItem="T0m-VZ-sUu" secondAttribute="centerX" id="R8X-UE-tJf"/>
+                            <constraint firstItem="bK0-Nm-ZSm" firstAttribute="leading" secondItem="QwK-FY-08e" secondAttribute="leading" constant="307" id="Vn9-mt-Ew5"/>
                             <constraint firstItem="2Hq-aP-SlZ" firstAttribute="centerY" secondItem="T0m-VZ-sUu" secondAttribute="centerY" id="afF-LT-3An"/>
+                            <constraint firstItem="bK0-Nm-ZSm" firstAttribute="centerY" secondItem="T0m-VZ-sUu" secondAttribute="centerY" constant="164.5" id="iHS-T2-EHU"/>
+                            <constraint firstItem="bK0-Nm-ZSm" firstAttribute="top" secondItem="2Hq-aP-SlZ" secondAttribute="bottom" constant="47" id="xf7-FC-wkS"/>
+                            <constraint firstItem="bK0-Nm-ZSm" firstAttribute="centerX" secondItem="T0m-VZ-sUu" secondAttribute="centerX" constant="123.5" id="za5-4e-3zR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Good" image="paperplane" catalog="system" id="oFe-14-pJ6"/>
@@ -70,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUP-WY-bJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="774" y="-640"/>
+            <point key="canvasLocation" x="773.91304347826087" y="-640.17857142857144"/>
         </scene>
         <!--Dad-->
         <scene sceneID="vvG-Gv-3bS">
@@ -90,9 +97,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEQ-te-t8f" userLabel="DadButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEQ-te-t8f" userLabel="DadButton">
                                 <rect key="frame" x="307" y="596" width="47" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="8vM-a3-aNx"/>
+                                    <constraint firstAttribute="width" constant="47" id="L1K-Vx-oWN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <state key="normal" title="Click!"/>
                                 <connections>
@@ -104,8 +114,12 @@
                         <viewLayoutGuide key="safeArea" id="UsH-tz-vDN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="JEQ-te-t8f" firstAttribute="top" secondItem="xve-lF-7zj" secondAttribute="bottom" constant="48" id="2R8-cW-4bd"/>
                             <constraint firstItem="xve-lF-7zj" firstAttribute="centerX" secondItem="y3J-VQ-NMv" secondAttribute="centerX" id="6az-gT-xrn"/>
+                            <constraint firstItem="JEQ-te-t8f" firstAttribute="leading" secondItem="UsH-tz-vDN" secondAttribute="leading" constant="307" id="NdS-Hg-IZt"/>
+                            <constraint firstItem="JEQ-te-t8f" firstAttribute="centerX" secondItem="y3J-VQ-NMv" secondAttribute="centerX" constant="123.5" id="QKA-nI-Rw2"/>
                             <constraint firstItem="xve-lF-7zj" firstAttribute="centerY" secondItem="y3J-VQ-NMv" secondAttribute="centerY" id="dDt-xw-6QU"/>
+                            <constraint firstItem="JEQ-te-t8f" firstAttribute="centerY" secondItem="y3J-VQ-NMv" secondAttribute="centerY" constant="165.5" id="pXV-qs-Qud"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" image="paperplane" catalog="system" id="TW6-pb-Rxj"/>
@@ -125,9 +139,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dK3-6W-jFD" userLabel="PunButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dK3-6W-jFD" userLabel="PunButton">
                                 <rect key="frame" x="306" y="595" width="47" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="tSJ-mX-Xxv"/>
+                                    <constraint firstAttribute="height" constant="35" id="zNw-hs-3T7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <state key="normal" title="Click!"/>
                                 <connections>
@@ -149,7 +166,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Fot-fN-iPa" firstAttribute="centerX" secondItem="oyi-go-Esu" secondAttribute="centerX" id="7Iq-Ly-FQy"/>
+                            <constraint firstItem="dK3-6W-jFD" firstAttribute="centerY" secondItem="oyi-go-Esu" secondAttribute="centerY" constant="164.5" id="Bah-JN-kms"/>
+                            <constraint firstItem="dK3-6W-jFD" firstAttribute="centerX" secondItem="oyi-go-Esu" secondAttribute="centerX" constant="122.5" id="jtw-Uh-jGr"/>
                             <constraint firstItem="Fot-fN-iPa" firstAttribute="centerY" secondItem="oyi-go-Esu" secondAttribute="centerY" id="siw-pw-BVN"/>
+                            <constraint firstItem="dK3-6W-jFD" firstAttribute="top" secondItem="Fot-fN-iPa" secondAttribute="bottom" constant="47" id="ssi-dM-LuG"/>
+                            <constraint firstItem="dK3-6W-jFD" firstAttribute="leading" secondItem="Anb-Ze-4Vw" secondAttribute="leading" constant="306" id="zKh-95-c1h"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" image="paperplane" catalog="system" id="SRs-Is-I0D"/>
